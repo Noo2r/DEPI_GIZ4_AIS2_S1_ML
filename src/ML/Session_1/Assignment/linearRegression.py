@@ -1,4 +1,5 @@
-class Linear_Regression_Nour_Eldin_Ahmed:
+import numpy as np
+class Linear_Regression_Nour_Eldin_Ahmed: 
     def __init__(self, learning_rate=0.01, num_iters=1000):
         self.learning_rate = learning_rate
         self.num_iters = num_iters
